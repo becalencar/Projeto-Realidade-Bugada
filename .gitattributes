@@ -3,3 +3,4 @@ build/IA[[:space:]]-[[:space:]]Intelig^encia[[:space:]]Arcana_Data/* filter=lfs 
 *.assets filter=lfs diff=lfs merge=lfs -text
 *.dll filter=lfs diff=lfs merge=lfs -text
 *.exe filter=lfs diff=lfs merge=lfs -text
+Kernel[[:space:]]Panic/Kernel[[:space:]]Panic_Data/* filter=lfs diff=lfs merge=lfs -text
