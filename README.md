@@ -22,4 +22,4 @@ A cada fase, REMI avança por uma camada diferente do servidor infectado. Para p
 
 ## Pasta Build
 
-o github não permitiu subir por conta do tamanho do arquivo, então subimos no google drive. Segue o link:
+o github não permitiu subir por conta do tamanho do arquivo, então subimos no google drive. Segue o link: https://drive.google.com/drive/folders/1lRy7S538rbkvZ3mIonDX80XPN5896OUj?usp=sharing
