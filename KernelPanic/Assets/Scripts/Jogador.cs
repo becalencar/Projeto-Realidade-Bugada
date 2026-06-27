@@ -1,0 +1,65 @@
+using UnityEngine;
+using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
+
+public class Jogador : MonoBehaviour
+{
+    [SerializeField] private int velocidade;
+    [SerializeField] private Rigidbody2D fisica;
+    [SerializeField] private Animator animador;
+    [SerializeField] private AudioSource somAtaque;
+    private Vector2 direcao;
+    private Vector2 ultimaDirecao;
+    private bool atacando = false;
+    void Start()
+    {
+        fisica = GetComponent<Rigidbody2D>();
+        animador = GetComponent<Animator>();
+    }
+    void Update()
+    {
+        fisica.linearVelocity = direcao * velocidade;
+
+        animador.SetFloat("eixoX", direcao.x);
+        animador.SetFloat("eixoY", direcao.y);
+        animador.SetFloat("lastX", ultimaDirecao.x);
+        animador.SetFloat("lastY", ultimaDirecao.y);
+        animador.SetBool("correndo", direcao != Vector2.zero);
+
+        if(direcao != Vector2.zero)
+        {
+            ultimaDirecao = direcao;
+        }
+    }
+    public void Movimentar(InputAction.CallbackContext contexto)
+    {
+        direcao = contexto.ReadValue<Vector2>();
+    }
+    public void Atacar(InputAction.CallbackContext contexto)
+    {
+        if (!atacando)
+        {
+            atacando = true;
+            animador.SetTrigger("atacando");
+            somAtaque.Play();
+        }
+    }
+
+    public void FimAtack()
+    {
+        atacando = false;
+    }
+
+    void OnTriggerEnter2D(Collider2D colisao)
+    {
+        if(colisao.gameObject.tag == "Finish")
+        {
+            GameManager.instancia.TrocarCena();
+        }
+        if(colisao.gameObject.tag == "orbe")
+        {
+            Destroy(colisao.gameObject);
+            GameManager.instancia.ColetarOrbe();
+        }
+    }
+}
