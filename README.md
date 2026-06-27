@@ -1,46 +1,25 @@
-# IA: Inteligência Arcana
-
-## Resumo do Projeto
-
-Um jogo de plataforma 2D com elementos de aventura e exploração. O jogador terá que enfrentar os inimigos de cada sala para chegar e derrotar o chefe final.
-
----
+# Kernel Panic
 
 ## Sobre o Jogo
- 
-**Gênero:** Plataforma 2D / Aventura  
-**Plataforma:** Desktop (Windows)  
-**Engine:** Unity  
+
+Kernel Panic é um jogo de plataforma 2D com elementos de aventura e exploração, produzido durante as aulas da disciplina de Desenvolvimento de Games.
+
+O jogador controla **REMI**, um pequeno robô de manutenção ativado em emergência após o servidor corporativo ser infectado pelo vírus **VOID**. Sua missão é percorrer as camadas corrompidas do sistema, derrotar criaturas feitas de código defeituoso, coletar os **Bits de Dados** espalhados pelo ambiente digital e chegar ao Núcleo Central para executar o protocolo de restauração antes que o VOID consuma tudo.
+
+A cada fase, REMI avança por uma camada diferente do servidor infectado. Para progredir, é necessário derrotar todos os inimigos, coletar os Bits de Dados obrigatórios e ativar o portal de restauração da fase.
+
+> Jogo produzido durante as aulas de Desenvolvimento de Games — 2026.
 
 ---
 
 ## Integrantes da Equipe
 
-- Charles Brunno Lustosa Couto  
-- Henrique Vieira Toledo  
-- Rebeca Alencar da Costa Cardoso  
+- Charles Brunno Lustosa Couto
+- Henrique Vieira Toledo
+- Rebeca Alencar da Costa Cardoso
 
 ---
 
-## Build do Jogo
+## Pasta Build
 
-O executável não pôde ser hospedado diretamente no GitHub por limitação de tamanho.
-Download do build: [https://drive.google.com/drive/folders/1lRy7S538rbkvZ3mIonDX80XPN5896OUj?usp=drive_link](https://drive.google.com/drive/folders/1lRy7S538rbkvZ3mIonDX80XPN5896OUj?usp=sharing)
-
----
-
-## Direitos Autorais e Créditos de Terceiros
-
-Os sprites, animações e assets visuais utilizados neste projeto são do jogo **Inteligência Arcana**, disponível em:  
-[https://holyvaras.itch.io/inteligencia-arcana](https://holyvaras.itch.io/inteligencia-arcana)
-
-**Desenvolvedores originais do Inteligência Arcana:**
-
-| Função | Nome |
-|---|---|
-| Programadora e Level Designer | Gwendolyn B. (GwenBee) |
-| Pixel Artist, Animador e UX Designer | Gabriel O. (holyvaras) |
-| Level Designer e Cenarista | Victor |
-| Roteirista e Programador | Lucas (luc4s_ag) |
-
-Os assets foram utilizados exclusivamente para fins educacionais, sem fins comerciais, com devida atribuição aos autores originais.
+o github não permitiu subir por conta do tamanho do arquivo, então subimos no google drive. Segue o link:
