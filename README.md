@@ -8,7 +8,7 @@ O jogador controla **REMI**, um pequeno robô de manutenção ativado em emergê
 
 A cada fase, REMI avança por uma camada diferente do servidor infectado. Para progredir, é necessário derrotar todos os inimigos, coletar os Bits de Dados obrigatórios e ativar o portal de restauração da fase.
 
-> Jogo produzido durante as aulas de Desenvolvimento de Games — 2026.
+> Jogo produzido durante as aulas de Tópicos Especiais em Tecnologias — 2026.
 
 ---
 
